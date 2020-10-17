@@ -237,17 +237,17 @@ a {
             .carousel-item {
                 a {
                     .img_box {
-                        height: 500px;
+                        height: 650px;
                         overflow: hidden;
                         position: relative;
                         img {
                             position: relative;
                             top: 50%;
                             left: 50%;
-                            transform: translate(-50%, -50%) scale(1.1);
+                            transform: translate(-50%, -50%);
                             transition: all 0.2s ease-in-out;
                             &:hover {
-                                transform: translate(-50%, -50%) scale(1.2);
+                                transform: translate(-50%, -50%) scale(1.1);
                             }
                         }
                     }
@@ -416,10 +416,11 @@ a {
                 position: relative;
                 .img-box {
                     width: 198px;
-                    height: 198px;
+                    height: 170px;
                     position: relative;
                     overflow: hidden;
                     img {
+                        height: 100%;
                         position: absolute;
                         top: 50%;
                         left: 50%;
@@ -455,6 +456,19 @@ a {
                 a {
                     p {
                         margin-bottom: 8px;
+                    }
+                }
+                .add-cart{
+                    margin-top: 8px;
+                    display: block;
+                    text-align: center;
+                    padding: 4px;
+                    background-color: #dfdbdd;
+                    color: rgb(54, 54, 54);
+                    border-radius: 2px;
+                    &:hover{
+                        color: #fff;
+                        background-color:#ed008ad3;
                     }
                 }
             }
